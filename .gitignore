@@ -1,0 +1,10 @@
+# Salida de compilacion de Arduino
+build/
+*.elf
+*.hex
+*.map
+*.o
+*.d
+
+# Estado local de VSCode / Arduino IDE
+**/.cortex-debug.*

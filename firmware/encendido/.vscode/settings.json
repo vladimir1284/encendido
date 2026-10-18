@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "cmath": "cpp",
+        "optional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "regex": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
+    },
+    "arduino.path": "/home/vladimir/Documentos/SOFTWARE/arduino/arduino-1.8.2"
+}

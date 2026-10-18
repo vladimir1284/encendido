@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/vladimir/Dicso/Salvas-LAP-ene2017/Documents/software/arduino-1.8.4-linux64/arduino-1.8.4/tools/**",
+                "/home/vladimir/Dicso/Salvas-LAP-ene2017/Documents/software/arduino-1.8.4-linux64/arduino-1.8.4/hardware/arduino/avr/**",
+                "/home/vladimir/.arduino15/packages/stm32duino/tools/**",
+                "/home/vladimir/Arduino/libraries/**",
+                "/home/vladimir/.arduino15/packages/stm32duino/hardware/STM32F1/2019.3.31/**",
+                "${workspaceFolder}"
+            ],
+            "forcedInclude": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
