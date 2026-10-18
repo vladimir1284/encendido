@@ -243,6 +243,12 @@ Otras cosas que conviene saber:
   lugar de a las 6000.)
 - El régimen `ALTA` y el estado `CALCULANDO` están declarados pero no tienen
   transición de entrada.
+- **El estado `CORTOCIRCUITO` no tiene salida.** El `switch` de la máquina de
+  estados no lo trata, así que una vez dentro el controlador se queda ahí
+  hasta el reset y no vuelve a disparar. Se ve en la captura
+  `corotocircuito_E2_800us`: tras el primer ciclo, `S` se queda arriba
+  mientras `E1` sigue conmutando. Para una protección puede ser lo correcto,
+  pero es una decisión que no está escrita en ninguna parte del código.
 - Los requisitos 3 (tres tipos de delco), 4 (bloqueo por voltaje de batería) y
   la parte de `T ≤ X` no están implementados.
 - `DEBUG` está en `true`. Con `DEBUG` activo el `loop()` imprime por serie cada
